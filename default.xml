@@ -32,7 +32,7 @@
     <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="f71cc7fa68ac644595257d6fdebc2e543cb7041c" clone-depth="1" groups="partner" remote="aosp" />
     <project path="prebuilts-master/misc" name="platform/prebuilts/misc" revision="pie-release" clone-depth="1" groups="partner" remote="aosp" />
     <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="5cc6456425d98d8fce685dcb13d3ad8baffccccf" groups="partner" remote="aosp" />
-    <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" revision="master" />
+    <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" revision="master" remote="aosp" />
     <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="30e9620566d78af29dbc22a9ef48a2bc56d42773" groups="partner" remote="aosp" />
     <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="96755e2ffffe500011eecd81b63eeaf2d484338e" groups="partner" remote="aosp" />
 </manifest>
