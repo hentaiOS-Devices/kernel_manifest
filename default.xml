@@ -2,7 +2,7 @@
 <manifest>
 
     <remote name="aosp" fetch="https://android.googlesource.com/" revision="android-msm-redbull-4.19-android11-qpr2" />
-    <remote name="hentai" fetch="https://github.com/hentaiOS-Devices" revision="hentai-next" />
+    <remote name="hentai" fetch="https://github.com/hentaiOS-Devices" revision="refs/heads/hentai-next" />
     <default sync-j="4" />
 
     <project path="build" name="kernel/build" revision="2fea4c26047a76447c88ec4625d2c7e247a6b9fe" groups="partner" remote="aosp" />
