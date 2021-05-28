@@ -23,7 +23,7 @@
     <project path="private/msm-google/techpack/dataipa" name="kernel/msm-extra/dataipa" groups="partner" remote="aosp" />
     <project path="private/msm-google/techpack/video" name="video-driver" groups="partner" remote="hentai-rika" />
     <project path="private/msm-google-modules/data-kernel" name="kernel/msm-modules/data-kernel" groups="partner" remote="aosp" />
-    <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="kernel/msm-modules/qca-wfi-host-cmn" groups="partner" remote="aosp" />
+    <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="qca-wfi-host-cmn" groups="partner" remote="hentai-rika" />
     <project path="private/msm-google-modules/wlan/qcacld-3.0" name="kernel/msm-modules/qcacld" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/wlan/fw-api" name="kernel/msm-modules/wlan-fw-api" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/touch/fts" name="kernel/msm-modules/fts_touch" groups="partner" remote="aosp" />
