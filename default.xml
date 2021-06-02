@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifest SYSTEM "default.dtd">
 <manifest>
 
     <remote name="aosp" fetch="https://android.googlesource.com/" revision="android-msm-redbull-4.19-android11-qpr2" />
@@ -15,7 +16,6 @@
         <linkfile src="build_apollo.sh" dest="build_apollo.sh" />
         <linkfile src="build_alioth.sh" dest="build_alioth.sh" />
     </project>
-
 
     <project path="private/msm-google/arch/arm64/boot/dts/vendor" name="devicetree" groups="partner" remote="hentai" />
     <project path="private/msm-google/techpack/audio" name="audio-kernel" groups="partner" remote="hentai" />
