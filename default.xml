@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE manifest SYSTEM "default.dtd">
 <manifest>
 
     <remote name="aosp" fetch="https://android.googlesource.com/" revision="android-msm-redbull-4.19-android11-qpr2" />
