@@ -19,7 +19,6 @@
     <project path="private/msm-google/arch/arm64/boot/dts/vendor" name="devicetree" groups="partner" remote="hentai" />
     <project path="private/msm-google/techpack/audio" name="audio-kernel" groups="partner" remote="hentai" />
     <project path="private/msm-google/techpack/camera" name="camera-kernel" groups="partner" remote="hentai-rika" />
-    <project path="private/msm-google/techpack/dataipa" name="kernel/msm-extra/dataipa" groups="partner" remote="aosp" />
     <project path="private/msm-google/techpack/video" name="video-driver" groups="partner" remote="hentai-rika" />
     <project path="private/msm-google-modules/data-kernel" name="kernel/msm-modules/data-kernel" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="qca-wfi-host-cmn" groups="partner" remote="hentai-rika" />
