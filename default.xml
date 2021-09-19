@@ -10,6 +10,9 @@
     <remote name="hentai-rika"
             fetch="ssh://git@github.com/hentaiOS-Devices/"
             revision="refs/heads/Rika" />
+    <remote name="qca-opensource"
+            fetch="https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/"
+            revision="refs/heads/LA.UM.9.1.r1-11100.01-SMxxx0.QSSI12.0" />
     <default sync-j="4" />
 
     <project path="build" name="kernel/build" revision="2fea4c26047a76447c88ec4625d2c7e247a6b9fe" groups="partner" remote="aosp" />
@@ -29,8 +32,8 @@
     <project path="private/msm-google/techpack/video" name="video-driver" groups="partner" remote="hentai-rika" />
     <project path="private/msm-google-modules/data-kernel" name="data-kernel" groups="partner" remote="hentai-rika" />
     <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="qca-wfi-host-cmn" groups="partner" remote="hentai-rika" />
-    <project path="private/msm-google-modules/wlan/qcacld-3.0" name="kernel/msm-modules/qcacld" groups="partner" remote="aosp" />
-    <project path="private/msm-google-modules/wlan/fw-api" name="kernel/msm-modules/wlan-fw-api" groups="partner" remote="aosp" />
+    <project path="private/msm-google-modules/wlan/qcacld-3.0" name="wlan/qcacld-3.0" groups="partner" remote="qca-opensource" />
+    <project path="private/msm-google-modules/wlan/fw-api" name="wlan/fw-api" groups="partner" remote="qca-opensource" />
     <project path="private/msm-google-modules/touch/fts" name="kernel/msm-modules/fts_touch" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/touch/sec" name="kernel/msm-modules/sec_touch" groups="partner" remote="aosp" />
     <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" revision="master" clone-depth="1" remote="aosp" />
