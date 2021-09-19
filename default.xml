@@ -12,7 +12,7 @@
             revision="refs/heads/Rika" />
     <remote name="qca-opensource"
             fetch="https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/"
-            revision="LA.UM.9.1.r1-11100.01-SMxxx0.QSSI12.0" />
+            revision="refs/tags/LA.UM.9.1.r1-11100.01-SMxxx0.QSSI12.0" />
     <default sync-j="4" />
 
     <project path="build" name="kernel/build" revision="2fea4c26047a76447c88ec4625d2c7e247a6b9fe" groups="partner" remote="aosp" />
