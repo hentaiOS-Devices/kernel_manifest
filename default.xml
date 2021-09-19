@@ -31,7 +31,7 @@
     <project path="private/msm-google/techpack/display" name="display-drivers" groups="partner" remote="hentai-rika" />
     <project path="private/msm-google/techpack/video" name="video-driver" groups="partner" remote="hentai-rika" />
     <project path="private/msm-google-modules/data-kernel" name="data-kernel" groups="partner" remote="hentai-rika" />
-    <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="qca-wfi-host-cmn" groups="partner" remote="hentai-rika" />
+    <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="wlan/qca-wfi-host-cmn" groups="partner" remote="qca-opensource" />
     <project path="private/msm-google-modules/wlan/qcacld-3.0" name="wlan/qcacld-3.0" groups="partner" remote="qca-opensource" />
     <project path="private/msm-google-modules/wlan/fw-api" name="wlan/fw-api" groups="partner" remote="qca-opensource" />
     <project path="private/msm-google-modules/touch/fts" name="kernel/msm-modules/fts_touch" groups="partner" remote="aosp" />
