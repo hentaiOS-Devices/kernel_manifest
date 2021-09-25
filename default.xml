@@ -6,10 +6,7 @@
             revision="android-msm-redbull-4.19-s-beta-4" />
     <remote name="hentai"
             fetch="ssh://git@github.com/hentaiOS-Devices/"
-            revision="refs/heads/hentai-next" />
-    <remote name="hentai-rika"
-            fetch="ssh://git@github.com/hentaiOS-Devices/"
-            revision="refs/heads/Rika" />
+            revision="refs/heads/SaltyIceCream" />
     <remote name="qca-opensource"
             fetch="https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/"
             revision="refs/tags/LA.UM.9.1.r1-11100.01-SMxxx0.QSSI12.0" />
@@ -27,10 +24,10 @@
 
     <project path="private/msm-google/arch/arm64/boot/dts/vendor" name="devicetree" groups="partner" remote="hentai" />
     <project path="private/msm-google/techpack/audio" name="audio-kernel" groups="partner" remote="hentai" />
-    <project path="private/msm-google/techpack/camera" name="camera-kernel" groups="partner" remote="hentai-rika" />
-    <project path="private/msm-google/techpack/display" name="display-drivers" groups="partner" remote="hentai-rika" />
-    <project path="private/msm-google/techpack/video" name="video-driver" groups="partner" remote="hentai-rika" />
-    <project path="private/msm-google-modules/data-kernel" name="data-kernel" groups="partner" remote="hentai-rika" />
+    <project path="private/msm-google/techpack/camera" name="camera-kernel" groups="partner" remote="hentai" />
+    <project path="private/msm-google/techpack/display" name="display-drivers" groups="partner" remote="hentai" />
+    <project path="private/msm-google/techpack/video" name="video-driver" groups="partner" remote="hentai" />
+    <project path="private/msm-google-modules/data-kernel" name="data-kernel" groups="partner" remote="hentai" />
     <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="wlan/qca-wifi-host-cmn" groups="partner" remote="qca-opensource" />
     <project path="private/msm-google-modules/wlan/qcacld-3.0" name="wlan/qcacld-3.0" groups="partner" remote="qca-opensource" />
     <project path="private/msm-google-modules/wlan/fw-api" name="wlan/fw-api" groups="partner" remote="qca-opensource" />
