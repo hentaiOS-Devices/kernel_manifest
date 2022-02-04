@@ -3,7 +3,7 @@
 
     <remote name="aosp"
             fetch="https://android.googlesource.com/"
-            revision="android-msm-redbull-4.19-android12" />
+            revision="refs/tags/android-s-v2-beta-2_r0.5" />
     <remote name="hentai"
             fetch="ssh://git@github.com/hentaiOS-Devices/"
             revision="refs/heads/SaltyIceCream" />
