@@ -31,7 +31,7 @@
     <project path="private/msm-google-modules/touch/fts" name="kernel/msm-modules/fts_touch" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/touch/sec" name="kernel/msm-modules/sec_touch" groups="partner" remote="aosp" />
     <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" revision="b2a189331333e014bfef4c0425b3ef4b74accdd0" remote="aosp" />
-    <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="ecd70fc88e56db2ebcaa0a4d893e7c416eee84a8" clone-depth="1" groups="partner" remote="aosp" />
+    <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="9d512ac4cf90e5ae0d3d6a3d884c49871c8ed28f" clone-depth="1" groups="partner" remote="aosp" />
     <project path="prebuilts-master/misc" name="platform/prebuilts/misc" revision="pie-release" clone-depth="1" groups="partner" remote="aosp" />
     <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="34bc8bfb493401f7aadbd3b434f9fbfa521e9301" groups="partner" remote="aosp" />
     <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" revision="master" remote="aosp" />
