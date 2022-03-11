@@ -24,9 +24,10 @@ repo sync
 
 The following table lists the `BRANCH` names for kernels available through this method
 
-| Device                                                                      | Binary path in hentaiOS tree                                                                                                                                               | Repo branches                 |
-| --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
-| Mi 10<br>Mi 10 Pro<br>Mi 10T (Pro)<br>Mi 10 Ultra<br>POCO F2 Pro<br>POCO F3 | device/xiaomi/umi-kernel<br>device/xiaomi/cmi-kernel<br>device/xiaomi/apollo-kernel<br>device/xiaomi/cas-kernel<br>device/xiaomi/lmi-kernel<br>device/xiaomi/alioth-kernel | android-msm-gourami-4.19-rika |
+| Device                                                                      	| Binary path in hentaiOS tree                                                                                                                                               	| Repo branches                                  	|
+|-----------------------------------------------------------------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|------------------------------------------------	|
+| Mi 10<br>Mi 10 Pro<br>Mi 10T (Pro)<br>Mi 10 Ultra<br>POCO F2 Pro<br>POCO F3 	| device/xiaomi/umi-kernel<br>device/xiaomi/cmi-kernel<br>device/xiaomi/apollo-kernel<br>device/xiaomi/cas-kernel<br>device/xiaomi/lmi-kernel<br>device/xiaomi/alioth-kernel 	| android-msm-gourami-4.19-saltyicecream-s2-sp2a 	|
+| Pixel 6 (oriole)<br>Pixel 6 Pro (raven)                                     	| device/google/raviole-kernel                                                                                                                                               	| android-gs-5.10-saltyicecream-s2-sp2a          	|
 
 ## Building the kernel
 
