@@ -17,6 +17,7 @@
         <linkfile src="build_cas.sh" dest="build_cas.sh" />
         <linkfile src="build_apollo.sh" dest="build_apollo.sh" />
         <linkfile src="build_alioth.sh" dest="build_alioth.sh" />
+        <linkfile src="build_alioth-gki.sh" dest="build_alioth-gki.sh" />
     </project>
 
     <project path="private/msm-google/arch/arm64/boot/dts/vendor" name="devicetree" groups="partner" remote="hentai" />
