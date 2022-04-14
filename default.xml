@@ -21,6 +21,8 @@
     </project>
 
     <project path="private/msm-google/arch/arm64/boot/dts/vendor" name="devicetree" groups="partner" remote="hentai" />
+    <project path="private/msm-google/arch/arm64/boot/dts/vendor/qcom/camera" name="kernel/msm-extra/camera-devicetree" groups="partner" remote="aosp" />
+    <project path="private/msm-google/arch/arm64/boot/dts/vendor/qcom/display" name="kernel/msm-extra/display-devicetree" groups="partner" remote="aosp" />
     <project path="private/msm-google/techpack/audio" name="audio-kernel" groups="partner" remote="hentai" />
     <project path="private/msm-google/techpack/camera" name="camera-kernel" groups="partner" remote="hentai" />
     <project path="private/msm-google/techpack/display" name="display-drivers" groups="partner" remote="hentai" />
