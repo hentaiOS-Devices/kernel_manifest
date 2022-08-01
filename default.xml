@@ -20,7 +20,7 @@
     <linkfile dest="update_symbol_list.sh" src="update_symbol_list.sh" />
   </project>
   <project path="private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" />
-  <project path="private/google-modules/aoc" name="kernel/google-modules/aoc" groups="partner" />
+  <project path="private/google-modules/aoc" name="google-modules_aoc" groups="partner" remote="hentai" />
   <project path="private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="partner" />
   <project path="private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="partner" />
   <project path="private/google-modules/bms" name="kernel/google-modules/bms" groups="partner" />
