@@ -5,10 +5,10 @@
     fetch="https://android.googlesource.com/" />
   <remote name="hentai"
     fetch="ssh://git@github.com/hentaiOS-Devices/"
-    revision="refs/heads/TwistedScarlet" />
+    revision="refs/heads/TwistedScarlett" />
   <remote name="hentai-common"
     fetch="ssh://git@github.com/hentaiOS-Devices/"
-    revision="refs/heads/common-TwistedScarlet" />
+    revision="refs/heads/common-TwistedScarlett" />
   <default revision="refs/tags/android-t-beta-4_r0.5"
     remote="aosp" sync-j="4" />
 
