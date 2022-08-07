@@ -19,6 +19,11 @@
     <linkfile dest="build_mixed.sh" src="build_mixed.sh" />
     <linkfile dest="update_symbol_list.sh" src="update_symbol_list.sh" />
   </project>
+  <project path="private/devices/google/bluejay" name="kernel_devices_google_bluejay" groups="partner,bluejay" remote="hentai" >
+    <linkfile dest="build_bluejay.sh" src="build_bluejay.sh"/>
+    <linkfile dest="update_symbol_list_bluejay.sh" src="update_symbol_list_bluejay.sh"/>
+    <linkfile dest="private/gs-google/arch/arm64/boot/dts/google/devices/bluejay" src="dts"/>
+  </project>
   <project path="private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" />
   <project path="private/google-modules/aoc" name="google-modules_aoc" groups="partner" remote="hentai" />
   <project path="private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="partner" />
