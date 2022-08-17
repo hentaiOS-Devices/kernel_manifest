@@ -3,10 +3,10 @@
 
     <remote name="aosp"
             fetch="https://android.googlesource.com/"
-            revision="refs/tags/android-t-beta-3_r0.3" />
+            revision="refs/tags/android-13.0.0_r0.3" />
     <remote name="hentai"
             fetch="ssh://git@github.com/hentaiOS-Devices/"
-            revision="refs/heads/SaltyIceCream" />
+            revision="refs/heads/TwistedScarlett" />
     <default sync-j="4" />
 
     <project path="build" name="kernel/build" revision="8c0966a12f3ab946e6e91ce20e581953d36434c1" groups="partner" remote="aosp" />
@@ -27,14 +27,14 @@
     <project path="private/msm-google/techpack/camera" name="camera-kernel" groups="partner" remote="hentai" />
     <project path="private/msm-google/techpack/display" name="display-drivers" groups="partner" remote="hentai" />
     <project path="private/msm-google/techpack/video" name="video-driver" groups="partner" remote="hentai" />
-    <project path="private/msm-google-modules/data-kernel" name="data-kernel" groups="partner" remote="hentai" />
+    <project path="private/msm-google-modules/data-kernel" name="kernel/msm-modules/data-kernel" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="qca-wfi-host-cmn" groups="partner" remote="hentai" />
     <project path="private/msm-google-modules/wlan/qcacld-3.0" name="kernel/msm-modules/qcacld" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/wlan/fw-api" name="kernel/msm-modules/wlan-fw-api" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/touch/fts" name="kernel/msm-modules/fts_touch" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/touch/sec" name="kernel/msm-modules/sec_touch" groups="partner" remote="aosp" />
     <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" revision="b2a189331333e014bfef4c0425b3ef4b74accdd0" remote="aosp" />
-    <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="9d512ac4cf90e5ae0d3d6a3d884c49871c8ed28f" clone-depth="1" groups="partner" remote="aosp" />
+    <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="4bb6424cb1615af408ae80871131f4da8c4ddadf" clone-depth="1" groups="partner" remote="aosp" />
     <project path="prebuilts-master/misc" name="platform/prebuilts/misc" revision="pie-release" clone-depth="1" groups="partner" remote="aosp" />
     <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="34bc8bfb493401f7aadbd3b434f9fbfa521e9301" groups="partner" remote="aosp" />
     <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="cfedc16ec3deb680fca6fe2aff44a1837a97b50d" groups="partner" remote="aosp" />
