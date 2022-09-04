@@ -15,6 +15,7 @@
         <linkfile src="build_umi.sh" dest="build_umi.sh" />
         <linkfile src="build_cmi.sh" dest="build_cmi.sh" />
         <linkfile src="build_cas.sh" dest="build_cas.sh" />
+        <linkfile src="build_munch.sh" dest="build_munch.sh" />
         <linkfile src="build_apollo.sh" dest="build_apollo.sh" />
         <linkfile src="build_alioth.sh" dest="build_alioth.sh" />
         <linkfile src="build_alioth-gki.sh" dest="build_alioth-gki.sh" />
