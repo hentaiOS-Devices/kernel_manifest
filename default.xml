@@ -12,7 +12,7 @@
   <default revision="refs/tags/android-t-qpr1-beta-1_r0.4"
     remote="aosp" sync-j="4" />
 
-  <project path="aosp" name="kernel_google_gs-priv" groups="partner" remote="hentai-common" />
+  <project path="aosp" name="kernel_google_gs" groups="partner" remote="hentai-common" />
   <project path="private/gs-google" name="kernel_google_gs-priv" groups="partner" remote="hentai" >
     <linkfile dest="build.config" src="build.config.slider" />
     <linkfile dest="build_slider.sh" src="build_slider.sh" />
