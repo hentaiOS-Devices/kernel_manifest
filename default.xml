@@ -15,8 +15,9 @@
   <project path="aosp" name="kernel_google_gs" groups="partner" remote="hentai-common" />
   <project path="private/gs-google" name="kernel_google_gs-priv" groups="partner" remote="hentai" >
     <linkfile dest="build.config" src="build.config.slider" />
-    <linkfile dest="build_slider.sh" src="build_slider.sh" />
+    <linkfile dest="build_cloudripper.sh" src="build_cloudripper.sh" />
     <linkfile dest="build_mixed.sh" src="build_mixed.sh" />
+    <linkfile dest="build_slider.sh" src="build_slider.sh" />
     <linkfile dest="update_symbol_list.sh" src="update_symbol_list.sh" />
   </project>
   <project path="private/devices/google/bluejay" name="kernel_devices_google_bluejay" groups="partner,bluejay" remote="hentai" >
@@ -30,20 +31,24 @@
   <project path="private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="partner" />
   <project path="private/google-modules/bms" name="kernel/google-modules/bms" groups="partner" />
   <project path="private/google-modules/display" name="google-modules_display" groups="partner" remote="hentai" />
+  <project path="private/google-modules/edgetpu/janeiro" name="kernel/google-modules/edgetpu/janeiro" groups="partner" />
   <project path="private/google-modules/edgetpu/abrolhos" name="kernel/google-modules/edgetpu/abrolhos" groups="partner" />
   <project path="private/google-modules/gpu" name="kernel/google-modules/gpu" groups="partner" />
+  <project path="private/google-modules/gxp/gs201" name="kernel/google-modules/gxp/gs201" groups="partner" />
   <project path="private/google-modules/lwis" name="kernel/google-modules/lwis" groups="partner" />
   <project path="private/google-modules/sensors/hall_sensor" name="kernel/google-modules/sensors/hall_sensor" groups="partner" />
   <project path="private/google-modules/power/reset" name="kernel/google-modules/power/reset" groups="partner" />
   <project path="private/google-modules/touch/common" name="kernel/google-modules/touch/common" groups="partner" />
   <project path="private/google-modules/focaltech" name="kernel/google-modules/touch/focaltech_touch" groups="partner" />
   <project path="private/google-modules/touch/fts" name="kernel/google-modules/touch/fts_touch" groups="partner" />
+  <project path="private/google-modules/touch/focaltech" name="kernel/google-modules/touch/focaltech_touch" groups="partner" />
   <project path="private/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" groups="partner" />
   <project path="private/google-modules/touch/synaptics" name="kernel/google-modules/touch/synaptics_touch" groups="partner" />
   <project path="private/google-modules/uwb" name="kernel/google-modules/uwb" groups="uwb" />
   <project path="private/google-modules/nfc" name="kernel/google-modules/nfc" groups="partner" />
   <project path="private/google-modules/video/gchips" name="kernel/google-modules/video/gchips" groups="partner" />
   <project path="private/google-modules/wlan/bcmdhd4389" name="google-modules_wlan_bcmdhd_bcm4389" groups="partner" remote="hentai" />
+  <project path="private/google-modules/wlan/wlan_ptracker" name="kernel/google-modules/wlan/wlan_ptracker" groups="partner" />
   <project path="build/kernel" name="kernel/build" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
