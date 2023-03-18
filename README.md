@@ -27,7 +27,7 @@ The following table lists the `BRANCH` names for kernels available through this 
 | Device                                                       | Binary path in hentaiOS tree                                                                                                                                | Repo branches                                 |
 |--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Mi 10 Mi 10 Pro Mi 10T (Pro) Mi 10 Ultra POCO F2 Pro POCO F3 | device/xiaomi/umi-kernel device/xiaomi/cmi-kernel device/xiaomi/apollo-kernel device/xiaomi/cas-kernel device/xiaomi/lmi-kernel device/xiaomi/alioth-kernel | android-msm-gourami-4.19-twistedscarlett-tp1a |
-| Pixel 6 (oriole) Pixel 6 Pro (raven)                         | device/google/raviole-kernel                                                                                                                                | android-gs-5.10-twistedscarlett-tq1a          |
+| Pixel 6 Pixel 6 Pro Pixel 6a Pixel 7 Pixel 7 Pro                         | device/google/raviole-kernel                                                                                                                                | android-gs-5.10-twistedscarlett-tq2a          |
 ## Building the kernel
 
 Then build the kernel with:
