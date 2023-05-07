@@ -3,7 +3,7 @@
 
     <remote name="aosp"
             fetch="https://android.googlesource.com/"
-            revision="refs/tags/android-13.0.0_r0.47" />
+            revision="refs/tags/android-t-qpr3-beta-3.1_r0.2" />
     <remote name="hentai"
             fetch="ssh://git@github.com/hentaiOS-Devices/"
             revision="refs/heads/TwistedScarlett" />
