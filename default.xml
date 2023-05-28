@@ -51,7 +51,7 @@
   <project path="private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" />
   <project path="private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="partner" />
   <project path="private/google-modules/bluetooth/qcom" name="kernel/google-modules/bluetooth/qcom" groups="partner" revision="refs/tags/android-13.0.0_r0.77" />
-  <project path="private/google-modules/bms" name="kernel/google-modules/bms" groups="partner" />
+  <project path="private/google-modules/bms" name="kernel/google-modules/bms" groups="partner" revision="refs/tags/android-u-beta-2.1_r0.4" />
   <project path="private/google-modules/fingerprint/fpc" name="kernel/google-modules/fingerprint/fpc" groups="partner" />
   <project path="private/google-modules/fingerprint/goodix" name="kernel/google-modules/fingerprint/goodix" groups="partner" />
   <project path="private/google-modules/lwis" name="kernel/google-modules/lwis" groups="partner" />
