@@ -3,10 +3,10 @@
 
     <remote name="aosp"
             fetch="https://android.googlesource.com/"
-            revision="refs/tags/android-t-qpr3-beta-3.1_r0.2" />
+            revision="refs/tags/android-u-qpr1-beta-1_r0.6" />
     <remote name="hentai"
             fetch="ssh://git@github.com/hentaiOS-Devices/"
-            revision="refs/heads/TwistedScarlett" />
+            revision="refs/heads/Ursamoon" />
     <default sync-j="4" />
 
     <project path="build" name="kernel/build" revision="8c0966a12f3ab946e6e91ce20e581953d36434c1" groups="partner" remote="aosp" />
