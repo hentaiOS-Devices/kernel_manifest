@@ -8,7 +8,7 @@
             fetch="ssh://git@github.com/hentaiOS-Devices/"
             revision="refs/heads/Ursamoon" />
     <remote name="codelinaro"
-            fetch="https://git.codelinaro.org/clo/" />
+            fetch="https://git.codelinaro.org/clo/la/" />
     <default sync-j="4" />
 
     <project path="build" name="kernel/build" revision="8c0966a12f3ab946e6e91ce20e581953d36434c1" groups="partner" remote="aosp" />
