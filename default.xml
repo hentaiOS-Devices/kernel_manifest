@@ -31,9 +31,9 @@
     <project path="private/msm-google/techpack/display" name="display-drivers" groups="partner" remote="hentai" />
     <project path="private/msm-google/techpack/video" name="video-driver" groups="partner" remote="hentai" />
     <project path="private/msm-google-modules/data-kernel" name="kernel/msm-modules/data-kernel" groups="partner" remote="aosp" />
-    <project path="private/msm-google-modules/wlan/fw-api" name="platform/vendor/qcom-opensource/wlan/fw-api" dest-branch="refs/heads/wlan-api.lnx.1.0" revision="c4506fca7375b53d13164122b91cbbffd3268a8e" upstream="refs/heads/wlan-api.lnx.1.0" remote="codelinaro"/>
-    <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" dest-branch="refs/heads/wlan-cmn.driver.lnx.2.0.8.1" name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" revision="81245f3e4e4db603a14e53fd097f9394c4b412a7" upstream="refs/heads/wlan-cmn.driver.lnx.2.0.8.1" remote="codelinaro"/>
-    <project path="private/msm-google-modules/wlan/qcacld-3.0" name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" dest-branch="refs/heads/wlan-cld3.driver.lnx.2.0.8.1" revision="41c9a6a1bf569c23c3bc96583236e8a87f4a5758" upstream="refs/heads/wlan-cld3.driver.lnx.2.0.8.1" remote="codelinaro"/>
+    <project path="private/msm-google-modules/wlan/fw-api" name="platform/vendor/qcom-opensource/wlan/fw-api" revision="c4506fca7375b53d13164122b91cbbffd3268a8e" groups="partner" remote="codelinaro"/>
+    <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" revision="81245f3e4e4db603a14e53fd097f9394c4b412a7" groups="partner" remote="codelinaro"/>
+    <project path="private/msm-google-modules/wlan/qcacld-3.0" name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" revision="41c9a6a1bf569c23c3bc96583236e8a87f4a5758" groups="partner" remote="codelinaro"/>
     <project path="private/msm-google-modules/touch/fts" name="kernel/msm-modules/fts_touch" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/touch/sec" name="kernel/msm-modules/sec_touch" groups="partner" remote="aosp" />
     <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" revision="b2a189331333e014bfef4c0425b3ef4b74accdd0" remote="aosp" />
