@@ -33,7 +33,7 @@
     <project path="private/msm-google-modules/data-kernel" name="kernel/msm-modules/data-kernel" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/wlan/fw-api" name="platform/vendor/qcom-opensource/wlan/fw-api" revision="c4506fca7375b53d13164122b91cbbffd3268a8e" groups="partner" remote="codelinaro"/>
     <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="qca-wifi-host-cmn" groups="partner" remote="hentai"/>
-    <project path="private/msm-google-modules/wlan/qcacld-3.0" name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" revision="41c9a6a1bf569c23c3bc96583236e8a87f4a5758" groups="partner" remote="codelinaro"/>
+    <project path="private/msm-google-modules/wlan/qcacld-3.0" name="qcacld-3.0" groups="partner" remote="hentai"/>
     <project path="private/msm-google-modules/touch/fts" name="kernel/msm-modules/fts_touch" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/touch/sec" name="kernel/msm-modules/sec_touch" groups="partner" remote="aosp" />
     <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" revision="b2a189331333e014bfef4c0425b3ef4b74accdd0" remote="aosp" />
