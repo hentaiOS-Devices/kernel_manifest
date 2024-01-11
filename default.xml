@@ -9,7 +9,7 @@
   <remote name="hentai-common"
     fetch="ssh://git@github.com/hentaiOS-Devices/"
     revision="refs/heads/common-Ursamoon" />
-  <default revision="refs/tags/android-u-qpr2-beta-2_r0.7"
+  <default revision="refs/tags/android-u-qpr2-beta-3_r0.7"
     remote="aosp" sync-j="4" />
 
   <project path="aosp" name="kernel_google_gs" groups="partner" remote="hentai-common" />
