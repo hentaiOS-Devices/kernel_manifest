@@ -68,7 +68,7 @@
   <project path="private/google-modules/wlan/bcmdhd4389" name="google-modules_wlan_bcmdhd_bcm4389" groups="partner" remote="hentai" />
   <project path="private/google-modules/wlan/wlan_ptracker" name="kernel/google-modules/wlan/wlan_ptracker" groups="partner" />
   <project path="private/google-modules/wlan/wcn6740/cnss2" name="kernel/google-modules/wlan/qcom/wcn6740/cnss2" groups="partner" />
-  <project path="private/google-modules/wlan/wcn6740/wlan" name="kernel/google-modules/wlan/qcom/wcn6740/wlan" groups="partner" />
+  <project path="private/google-modules/wlan/wcn6740/wlan" name="google-modules_wlan_qcom_wcn6740_wlan" groups="partner" remote="hentai" />
   <project path="private/google-modules/video/gchips" name="kernel/google-modules/video/gchips" groups="partner" />
   <project path="build/kernel" name="kernel/build" >
     <linkfile dest="tools/bazel" src="kleaf/bazel.sh"/>
